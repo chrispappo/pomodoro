@@ -1,0 +1,15 @@
+.urlShare{
+  padding: 20px;
+  background: gainsboro;
+  border-radius: 25px;
+
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container > * {
+  width: 100%;
+}

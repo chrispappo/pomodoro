@@ -1,0 +1,7 @@
+<p class="form-container">
+  <mat-form-field appearance="fill">
+    <mat-label>Share me !</mat-label>
+    <input (click)="copyLink()" matInput value="{{buildUrl()}}" placeholder="Placeholder" readonly>
+    <mat-icon matPrefix>link</mat-icon>
+  </mat-form-field>
+</p>
